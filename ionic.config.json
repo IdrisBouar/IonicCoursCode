@@ -1,0 +1,7 @@
+{
+  "name": "demotable",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
