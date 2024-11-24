@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>test</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <h1> Directive ngFor</h1>
+  <ion-list>
+    <br>
+    <ion-item 
+      *ngFor="let item of items;
+                      let index=index
+                      let isFirst=first
+                      let isOdd=odd">
+      <ion-label>{{item}}</ion-label><br>
+      <ion-label>{{index}}</ion-label><br>
+      <ion-label>{{isFirst}}</ion-label><br>
+      <ion-label>{{isOdd}}</ion-label>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
