@@ -25,6 +25,14 @@
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
 
+/* @Swimlane/ngx-datatable imports */
+@import "node_modules/@swimlane/ngx-datatable/index.css";
+@import "node_modules/@swimlane/ngx-datatable/themes/material.css";
+@import "node_modules/@swimlane/ngx-datatable/themes/dark.css";
+@import "node_modules/@swimlane/ngx-datatable/themes/bootstrap.css";
+@import "node_modules/@swimlane/ngx-datatable/assets/app.css";
+@import "node_modules/@swimlane/ngx-datatable/assets/icons.css";
+
 /**
  * Ionic Dark Mode
  * -----------------------------------------------------
